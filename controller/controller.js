@@ -44,6 +44,7 @@ exports.viewbyid=(req,res)=>{
     });
 
 }
+
 //view
 exports.view=(req,res)=>{
     employeemodel.view((err,data)=>{
